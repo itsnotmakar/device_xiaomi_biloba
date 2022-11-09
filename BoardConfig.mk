@@ -122,7 +122,3 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # fix overriding commands for target
 BUILD_BROKEN_DUP_RULES := true
-
-# prebuilt vendor
-BOARD_PREBUILT_VENDORIMAGE := $(DEVICE_PATH)/prebuilts/vendor.img
-TARGET_COPY_OUT_VENDOR := vendor
